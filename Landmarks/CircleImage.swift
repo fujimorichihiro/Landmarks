@@ -9,9 +9,9 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        Image("car")
+        Image("turtlerock")
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.green,lineWidth: 5))
+            .overlay(Circle().stroke(Color.gray,lineWidth: 5))
             .shadow(radius: 7)
     }
 }
